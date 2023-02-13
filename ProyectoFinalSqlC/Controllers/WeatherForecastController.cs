@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProyectoFinalSqlc.Controllers
+namespace ProyectoFinalSqlC.Controllers
 {
     [ApiController]
     [Route("[controller]")]

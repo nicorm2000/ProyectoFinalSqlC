@@ -1,4 +1,4 @@
-namespace ProyectoFinalSqlc
+namespace ProyectoFinalSqlC
 {
     public class Program
     {
