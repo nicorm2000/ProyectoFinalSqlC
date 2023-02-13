@@ -8,7 +8,7 @@ namespace ProyectoFinalSqlC.Data
 
         protected SqlConnection conn = new SqlConnection();
         protected SqlCommand command = new SqlCommand();
-        protected string query;
+        protected string query = "0";
         private protected string connectionstring = "Data Source=DESKTOP-PKSDVOQ;Initial Catalog=SistemaGestion;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         public DbController()
