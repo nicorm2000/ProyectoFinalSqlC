@@ -2,10 +2,12 @@
 {
     public class Sale
     {
+        private long id;
+        private string comment;
+        private long userId;
 
-        public long Id { get; set; }
-        public string Comment { get; set; } = String.Empty;
-        public long UserId { get; set; }
-
+        public long Id { get => id; set => id = value; }
+        public string Comment { get => comment; set => comment = value; }
+        public long UserId { get => userId; set => userId = value; }
     }
 }

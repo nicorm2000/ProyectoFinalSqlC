@@ -2,11 +2,14 @@
 {
     public class ProductoSale
     {
+        private long id;
+        private int stock;
+        private long productId;
+        private long saleId;
 
-        public int Id { get; set; }
-        public int Stock { get; set; }
-        public int ProductId { get; set; }
-        public int SaleId { get; set; }
-
+        public long Id { get => id; set => id = value; }
+        public int Stock { get => stock; set => stock = value; }
+        public long ProductId { get => productId; set => productId = value; }
+        public long SaleId { get => saleId; set => saleId = value; }
     }
 }

@@ -2,13 +2,18 @@
 {
     public class User
     {
+        private long id;
+        private string name;
+        private string surname;
+        private string username;
+        private string password;
+        private string email;
 
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Surnmae { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public string Email { get; set; }
-
+        public long Id { get => id; set => id = value; }
+        public string Name { get => name; set => name = value; }
+        public string Surname { get => surname; set => surname = value; }
+        public string Username { get => username; set => username = value; }
+        public string Password { get => password; set => password = value; }
+        public string Email { get => email; set => email = value; }
     }
 }
