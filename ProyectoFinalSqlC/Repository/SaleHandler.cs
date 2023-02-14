@@ -1,12 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Data.SqlClient;
+using ProyectoFinalSqlC.Models;
 
 namespace ProyectoFinalSqlC.Repository
 {
-    public class SaleHandler : Controller
+    public class SaleHandler 
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+
     }
 }
