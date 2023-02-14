@@ -56,6 +56,7 @@ namespace ProyectoFinalSqlC.Repository
                 {
                     {
                         reader.Read();
+
                         producto.Id = reader.GetInt64(0);
                         producto.Description = reader.GetString(1);
                         producto.Costo = reader.GetDecimal(2);
@@ -128,6 +129,7 @@ namespace ProyectoFinalSqlC.Repository
                 {
                     {
                         reader.Read();
+
                         producto.Id = reader.GetInt64(0);
                         producto.Description = reader.GetString(1);
                         producto.Costo = reader.GetDecimal(2);
@@ -152,6 +154,7 @@ namespace ProyectoFinalSqlC.Repository
                     SqlCommand command1 = new SqlCommand($"DELETE FROM PRODUCTO WHERE id = {id}", connection);
 
                     connection.Open();
+
                     command.ExecuteNonQuery();
 
                     return command1.ExecuteNonQuery();

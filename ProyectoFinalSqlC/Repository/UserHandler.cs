@@ -22,6 +22,7 @@ namespace ProyectoFinalSqlC.Repository
                 if (reader.HasRows)
                 {
                     reader.Read();
+
                     usuario.Id = reader.GetInt64(0);
                     usuario.Name = reader.GetString(1);
                     usuario.Lastname = reader.GetString(2);
@@ -49,6 +50,7 @@ namespace ProyectoFinalSqlC.Repository
                 if (reader.HasRows)
                 {
                     reader.Read();
+
                     usuario.Id = reader.GetInt64(0);
                     usuario.Name = reader.GetString(1);
                     usuario.Lastname = reader.GetString(2);
